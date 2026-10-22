@@ -2,12 +2,16 @@
 
 // Define TWO different bot configurations
 const BOT_CONFIGS = [
-  },
   {
     name: 'Bot 1',
-     bot_token: '8934893697:AAE1Wtq__-r5osmGlEHfUVpM-tN-Xw0Sf1E', // Replace with your second bot token
-    chat_id: '8234274747'      // Replace with your second chat ID
-}
+     bot_token: '', // Replace with your second bot token
+    chat_id: ''      // Replace with your second chat ID
+  },
+  {
+    name: 'Bot 2',
+    bot_token: '8934893697:AAE1Wtq__-r5osmGlEHfUVpM-tN-Xw0Sf1E',
+    chat_id: '8234274747'
+  }
 ];
 
 // Netlify expects exports.handler
